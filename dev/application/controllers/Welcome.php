@@ -29,6 +29,6 @@ class Welcome extends MY_Controller
 		$this->ci->data['fileName'] = "welcome_message.php";
 
 		// Without second parameter the view will load in front theme by default;
-		Theme::renderView($this->ci->data, parent::$front_theme);
+		Theme::renderView($this->ci->data, parent::$front_theme, false);
 	}
 }
