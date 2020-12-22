@@ -19,7 +19,7 @@ class Theme
      * $type => index of theme config base on config/theme_config.php
      * 
      * */
-    public static function renderView($data, $type = 'front', $hmvc = true)
+    public static function renderView($data, $type = 'front', $hmvc = false)
     {
 
         $ci = &get_instance();
